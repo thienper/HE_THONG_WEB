@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <link rel="stylesheet" href="../Bai-1c/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="top">
+        <h1>EXAMPLE CAFE MENU</h1>
+    </header>
+    <hr>
+    <nav class="inner-menu">
+        <ul>
+            <li><a href="#top"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#starters">Starter</a></li>
+            <li><a href=#main-courses>Main Courses</a></li>
+            <li><a href=#desserts>Desserts</a></li>
+            <li>
+                <form action="#">
+                    <input type="search">
+                    <button>Go</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <!-- End Header -->
+
+    <!-- Nav Left -->
+    <div class="container">
+        <nav class="nav-left">
+            <ul>
+                <li>Cafe Latte</li>
+                <li>Espresso</li>
+                <li>Mocha</li>
+                <li>Capuchino</li>
+                <li>Caramel Machiato</li>
+                <img src="images/company.png" alt="company">
+            </ul>
+        </nav>
+        <!-- End Nav Left -->
+        <main>
+            <!-- Starters -->
+            <div id="starters" class="paragraph">
+                <h1 class="head">Starters</h1>
+                <div class="inner-list">
+                    <ul>
+                        <li>Chestnut and Mushroom Goujons (<a href="#">v</a>)</li>
+                        <li>Goat Cheese Salad(<a href="#">v</a>)</li>
+                        <li><span style="text-transform: uppercase; color: #BE835A;font-weight: bold;">Honey Soy Chicken
+                                Kebabs</span>(<a href="#">v</a>)</li>
+                        <li>Seafood Salad(<a href="#">v</a>)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Starters -->
+            <a href="#top" class="back-to-top">Back to top</a>
+            <!-- Desserts -->
+            <div id="desserts" class="paragraph">
+                <h1 class="head">Desserts</h1>
+                <div class="inner-list">
+                    <ul>
+                        <li>Lemon Sorbet (<a href="#">v</a>)</li>
+                        <li>Chocolate Mud Pie (<a href="#">v</a>)</li>
+                        <li>Pecan Pie (<a href="#">v</a>)</li>
+                        <li>Selection of Fine Cheeses from Around the World</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Desserts -->
+            <a href="#top" class="back-to-top">Back to top</a>
+            <p style="margin: 0;">Items marked with a (v) are suitable for vegetarians</p>
+
+            <div class="information">
+                <h1 class="head">Information</h1>
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" name="f-name" placeholder="First Name" class="form-control">
+                        <input type="text" name="l-name" placeholder="Last Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" class="form-control">
+                        <input type="text" name="telephone" placeholder="Telephone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <select name="country" id="country" class="form-control">
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Vietnamese">Vietnamese</option>
+                        </select>
+                        <input type="radio" value="Vietnamese" id="vie" name="country">
+                        <label for="vie">Vietnamese</label>
+                        <input type="radio" value="Foreigner" id="fore" name="country">
+                        <label for="fore">Foreigner</label>
+                    </div>
+                    <div class="form-group" style="width: 97%;">
+                        <textarea name="Comment" placeholder="Comment" style="width: 100%;"></textarea>
+                    </div>
+                    <div class="inner-button">
+                        <button>Submit</button>
+                        <button>Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <!-- Nav right -->
+        <div class="nav-right">
+            <h3 class="inner-head" >Events</h3>
+            <ul>
+                <li>
+                    <div class="inner-title">Regular Meetings</div>
+                    <div class="inner-image">
+                        <img src="images/meeting.png" alt="meeting">
+                    </div>
+                    <div class="inner-desc">
+                        Host your regular team meetings or activities in the comfort of your own private room... 
+                            <a href="#">Read more</a>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="inner-title">Product Launches</div>
+                    <div class="inner-image">
+                        <img src="images/launch.png" alt="meeting">
+                    </div>
+                    <div class="inner-desc">
+                        Launch your product with ease in a space that truly fits its image. Create an unforgettable... <a href="#">Read more</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- End Nav right -->
+    </div>
+    <footer>
+        <h2>ABC Company <sup>&#169;</sup> - 12345678 - abccoffee@gmail.com</h2>
+    </footer>
+
+</body>
+
+</html>

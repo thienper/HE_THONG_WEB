@@ -1,0 +1,118 @@
+:root {
+    --color-one: #009B01;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffffe5;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/background.jpg);
+}
+
+.container img:first-child {
+    margin-left: 10px;
+}
+
+.container .inner-wrap {
+    display: flex;
+    margin-left: 10px;
+    border-bottom: 2px solid var(--color-one);
+    padding-bottom: 10px;
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Link */
+#links {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#links ul {
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-right: 4px solid #ddd;
+    border-bottom: 4px solid #ddd;
+    margin-right: 10px;
+
+}
+
+#links ul li a {
+    display: block;
+    padding: 10px 30px;
+}
+
+#links ul li:hover {
+    background-color: #000;
+}
+
+#links ul li a:hover {
+    color: #fff;
+}
+
+/* End Link */
+
+/* Content */
+#content {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solid var(--color-one);
+    
+    width: 77%;
+}
+
+
+#content .content-heading-main img {
+    float: right;
+    width: auto;
+    height: 280px;
+}
+
+
+#content .content-heading-main h2 {
+    background-color: var(--color-one);
+    padding-left: 100px;
+    width: 85%;
+    font-size: 36px;
+    letter-spacing: 12px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#content .content-sub h3 {
+    background-color: var(--color-one);
+    width: 40%;
+    padding-left: 20px;
+}
+
+/* End Content */
+
+/* Address */
+address {
+    text-align: center;
+    margin-top: 5px;
+    border-top: 1px solid var(--color-one);
+    padding: 10px;
+}
+
+/* End Address */

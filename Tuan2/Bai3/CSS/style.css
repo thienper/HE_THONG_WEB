@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/background.jpg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Index.html */
+.section .inner-image {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section .inner-image img {
+    width: 80%;
+    height: auto;
+}
+
+.section .inner-image a img {
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+
+
+/* End Index.html */

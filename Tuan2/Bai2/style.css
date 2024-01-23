@@ -1,0 +1,147 @@
+:root {
+    --color-bg-one: #B2AEAB;
+    --color-text-one: #6b6969;
+    --color-text-two: #f4547c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: var(--color-text-one);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+.container .head-main {
+    background-image: url(images/background.png);
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.container .head-main .head-tile {
+    color: #fff;
+}
+.container .head-main img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.container nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    background-color: var(--color-bg-one);
+}
+
+.container nav ul li {
+    margin: 5px 20px;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container nav ul li a:hover {
+    color: #000;
+}
+
+/* End Header */
+
+/* Section */
+main {
+    margin: 10px;
+    display: flex;
+}
+
+main .section {
+    width: 68%;
+    border-right: 1px solid #ddd;
+}
+
+.section article {
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section article .inner-image {
+    margin-right: 20px;
+    padding: 3px;
+    border: 1px solid #ddd;
+}
+
+.section article .inner-image p{
+    width: 50%;
+    padding: 2px 0;
+}
+
+.section article .inner-content .inner-title {
+    font-size: 26px;
+    margin: 13px 0;
+    margin-bottom: 10px;
+}
+
+.section article .inner-content .inner-sub-title {
+    font-size: 20px;
+    color: var(--color-text-two);
+    margin: 8px 0;
+}
+
+.section article .inner-desc {
+    font-size: 18px;
+}
+
+aside {
+    margin-left: 15px;
+    width: 35%;
+    padding: 0 30px;
+}
+
+aside section:nth-child(1) {
+    color: var(--color-text-two);
+}
+
+aside section ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+aside section:nth-child(1) ul li {
+    margin: 10px 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+}
+
+aside section h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 32px;
+    color: var(--color-text-two);
+}
+
+aside section:nth-child(2) ul li {
+    font-size: 20px;
+}
+/* End Section */
+
+/* Footer */
+footer {
+    background-color: var(--color-bg-one);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+/* End Footer */
